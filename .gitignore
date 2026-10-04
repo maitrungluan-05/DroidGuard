@@ -1,0 +1,34 @@
+## Visual Studio & .NET .gitignore
+
+# Build results & output directories
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# Visual Studio temporary files, build results, and user settings
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.exe
+*.dll
+!src/**/*.csproj
+!tests/**/*.csproj
+
+# IDE settings
+.idea/
+.vscode/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
